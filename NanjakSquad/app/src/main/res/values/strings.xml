@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Nanjak Squad</string>
+    <string name="nama_gunung">Nama Gunung</string>
+    <string name="gambar">gambar</string>
+    <string name="gunung">List Gunung</string>
+    <string name="cuaca">Cuaca</string>
+    <string name="about">Tentang Aplikasi</string>
+    <string name="detail">Detail Aplikasi</string>
+
+    <string name="nama">Wulan Sukmawati</string>
+    <string name="nim">(10116194)</string>
+    <string name="project_name">Nama Aplikasi :</string>
+    <string name="project_theme">Tema Aplikasi :</string>
+    <string name="theme_project">Nature Tourism</string>
+    <string name="project_desc">Deskripsi</string>
+    <string name="project_deskripsi">Indonesia yang terletak di jalur cincin api membuat Indonesia menjadi salah satu negara yang memiliki gunung terbanyak di dunia.
+     setidaknya ada ratusan gunung indah yang terbesar di Wilayah Indonesia. Dari sekian banyak gunung yang ada di Indonesia, beberapa diantaranya merupakan tujuan favorite
+     para pendaki. Sebabnya, gunung - gunung tersebut memiliki pemandangan spektakuler yang hanya bisa kita nikmati saat kita mendakinya. Maka dari itu dibuatlah aplikasi ini,
+     didalam aplikasi ini terdapat list gunung - gunung yang ada di Indonesia. Dan di aplikasi ini terdapat fitur cuaca, untuk mengetahui cuaca terkini, guna membantu para pendaki.</string>
+
+    <string name="tanggal">Juli 14, Rabu</string>
+    <string name="des_cuaca">-----</string>
+    <string name="desc_cuaca">..............</string>
+    <string name="suhu_desc">0°c</string>
+    <string name="suhu">Suhu saat ini</string>
+    <string name="desc_kelembapan">0%</string>
+    <string name="kelembapan">Kelembapan</string>
+
+    <string name="ketinggian">Ketinggian</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="keterangan">Keterangan</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/btn_gunung"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center|center"
+                    android:paddingTop="200dp"
+                    android:singleLine="false"
+                    android:text="@string/gunung"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/customshaperounded"
+                    android:elevation="5dp"
+                    android:padding="30dp"
+                    android:backgroundTint="@color/background"
+                    app:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/mountains"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/btn_cuaca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center|center"
+                    android:paddingTop="200dp"
+                    android:singleLine="false"
+                    android:text="@string/cuaca"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/customshaperounded"
+                    android:elevation="5dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="30dp"
+                    android:src="@drawable/cloudy"
+                    app:tint="@color/colorPrimaryDark" />
+            </RelativeLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
